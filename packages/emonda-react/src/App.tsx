@@ -3,13 +3,14 @@ import {
   SandpackLayout, 
   SandpackPreview, 
   SandpackCodeEditor,
-  useSandpack
+  SandpackFileExplorer,
 } from "@codesandbox/sandpack-react";
 
 const CustomSandpack = () => {
   return (
-    <SandpackProvider template="react">
+    <SandpackProvider template="react" theme={'dark'}>
       <SandpackLayout>
+        <SandpackFileExplorer />
         <SandpackCodeEditor />
         <SandpackPreview />
       </SandpackLayout>
