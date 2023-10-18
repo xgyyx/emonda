@@ -1,12 +1,40 @@
 {
   "name": "emonda-react",
   "version": "0.0.1",
-  "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "dependencies": {
+    "@codesandbox/sandpack-client": "^2.9.0",
+    "@codesandbox/sandpack-react": "^2.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "@vitejs/plugin-react": "^4.0.4",
+    "@vitejs/plugin-react-swc": "^3.4.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.8"
+  },
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgyyx/emonda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgyyx/emonda/issues"
+  },
+  "homepage": "https://github.com/xgyyx/emonda#readme",
+  "description": ""
 }
